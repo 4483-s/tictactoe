@@ -1,1 +1,37 @@
-@import url('./reset.css')
+@import url("./reset.css");
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: black;
+  color: color;
+}
+.gamestatus {
+  color: white;
+  flex: 1;
+}
+.centerdiv {
+  flex: 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.board {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  aspect-ratio: 1/1;
+  gap: 4px;
+}
+.board > * {
+  flex: 1;
+  gap: 4px;
+  display: flex;
+}
+.board > * > * {
+  background-color: yellow;
+  flex: 1;
+}
+.ctl {
+  flex: 2;
+}

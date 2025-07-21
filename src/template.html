@@ -5,7 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css" />
-    <script src="index.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="gamestatus"></div>
+    <div class="centerdiv">
+      <div class="board">
+        <div class="rows">
+          <div class="cells"></div>
+          <div class="cells"></div>
+          <div class="cells"></div>
+        </div>
+        <div class="rows">
+          <div class="cells"></div>
+          <div class="cells"></div>
+          <div class="cells"></div>
+        </div>
+        <div class="rows">
+          <div class="cells"></div>
+          <div class="cells"></div>
+          <div class="cells"></div>
+        </div>
+      </div>
+    </div>
+    <div class="ctl">
+      <button class="startbtn">Start Game</button
+      ><button class="setnamebtn">Set Player Names</button>
+    </div>
+    <dialog>
+      <form>
+        <label for="player1name"
+          >Player1 name: <input type="text" id="player1name"
+        /></label>
+        <label for="player2name"
+          >Player2 name: <input type="text" id="player2name"
+        /></label>
+        <button class="confirm">Confirm</button>
+        <button class="cancel">Cancel</button>
+      </form>
+    </dialog>
+    <script src="./index.js"></script>
+  </body>
 </html>
