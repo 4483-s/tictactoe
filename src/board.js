@@ -15,14 +15,6 @@ const resetBoard = () => {
 resetBoard();
 
 const getBoard = () => board;
-// const placeMark = (row, column, mark) => {
-//   if (board[row][column]) {
-//     return false;
-//   } else {
-//     board[row][column] = mark;
-//     return true;
-//   }
-// };
 const placeMark = (row, column, mark) => {
   board[row][column] = mark;
 };

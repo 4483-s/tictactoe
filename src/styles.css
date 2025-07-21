@@ -9,6 +9,10 @@ body {
 .gamestatus {
   color: white;
   flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 4rem;
 }
 .centerdiv {
   flex: 6;
@@ -34,4 +38,23 @@ body {
 }
 .ctl {
   flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.ctl button {
+  padding: 1em;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 2rem;
+}
+.cells {
+  font-size: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
